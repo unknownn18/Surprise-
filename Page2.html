@@ -7,20 +7,6 @@
   <title>Love</title>
 </head>
 <body>
-<div>
-  <img src="https://i.ibb.co/6RmZVLZ6/1777025302839-removebg-preview.png" class="paper">
-  <style>
-  .paper {
-    filter: drop-shadow(0 0 10px black) drop-shadow(0 0 20px black);
-    width: 320px;
-    position: absolute;
-    bottom: 190px;
-    left: 21px;
-    right: 50px;
-    z-index: 3;
-  }
-  </style>
-</div>
   <style>
   body {
   display: flex;
@@ -41,29 +27,8 @@
       font-size: 35px;
       color: deeppink;
       text-shadow: 0 0 10px yellow, 0 0 20px yellow, 0 0 40px yellow;
-      margin-bottom: 25px;
+      margin-bottom: -22px;
       z-index: 3;
-    }
-  </style>
-   <p>I wish you to have a</p>
-   <p>great day ahead! I</p>
-   <p>hope you'll be loved</p>
-   <p>today, the way you</p>
-   <p>wanted to be loved:)</p>
-   <p>I'll always be here</p>
-   <p>for you!</p>
-  <style>
-    p {
-      text-align: center;
-      z-index: 3;
-      font-family: Courier;
-      font-size: 20px;
-      color: white;
-      font-weight: bold;
-      font-style: italic;
-      -webkit-text-stroke: 0.5px brown;
-      text-shadow: 0 0 10px pink, 0 0 20px pink, 0 0 30px pink, 0 0 40px black;
-      margin: 1px;
     }
    body {
      background-image: url('https://i.ibb.co/fVQSQjDT/1777013315993.jpg');
@@ -72,6 +37,37 @@
     background-repeat: no-repeat;
    }
   </style>
+<div class="paper-container">
+  <img src="https://i.ibb.co/6RmZVLZ6/1777025302839-removebg-preview.png" class="paper">
+  <div class="paper-text">
+    <p>I wish you to have a great day ahead! I hope you'll be loved today, the way you wanted to be loved:) I'll always be here for you!</p>
+    <style>
+      .paper-container {
+        position: relative;
+        bottom: -30px;
+        width: 320px;
+        filter: drop-shadow(0 0 10px black) drop-shadow(0 0 20px black);
+        }
+      .paper {
+        width: 100%;
+      }
+      .paper-text {
+        font-family: Courier;
+        color: brown;
+        -webkit-text-stroke: 0.5px brown;
+        text-shadow: 0 0 10px pink, 0 0 20px pink, 0 0 30px pink, 0 0 40px black;
+        font-weight: bold;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+        text-align: center;
+}
+    </style>
+  </div>
+</div>
 <div>
   <img src="https://i.ibb.co/B5nFW8Yr/5eaaadbcad89b60004c4c7cd.png" class="hlkitty">
   <style>
@@ -93,6 +89,7 @@
       top: -267px;
       left: -5px;
       border-radius: 20px;
+      border-color: white;
       font-family: 'Dancing Script', cursive;
       font-size: 15px;
       color: yellow;
@@ -122,6 +119,7 @@
           top: 20px;
           left: 5px;
           border-radius: 20px;
+          border-color: white;
           font-family: 'Dancing Script', cursive;
           font-size: 20px;
           color: yellow;
